@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/LogTier.Log4Net.Sample/LogTier.Log4Net.Sample.csproj" />
+    <Project Path="samples/LogTier.Serilog.Sample/LogTier.Serilog.Sample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/LogTier.Log4Net/LogTier.Log4Net.csproj" />
+    <Project Path="src/LogTier.Serilog/LogTier.Serilog.csproj" />
+  </Folder>
+  <Folder Name="/src/tests/">
+    <Project Path="src/tests/LogTier.Log4Net.IntegrationTests/LogTier.Log4Net.IntegrationTests.csproj" />
+    <Project Path="src/tests/LogTier.Serilog.IntegrationTests/LogTier.Serilog.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

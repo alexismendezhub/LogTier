@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    <add key="LogTier:ApplicationName" value="Legacy.Web" />
+    <add key="LogTier:EnvironmentName" value="Production" />
+    <add key="LogTier:IncludeHttpHeaders" value="true" />
+  </appSettings>
+  <system.webServer>
+    <modules>
+      <add name="LogTierHttpModule" type="LogTier.Log4Net.LogTierHttpModule, LogTier.Log4Net" />
+    </modules>
+  </system.webServer>
+</configuration>
